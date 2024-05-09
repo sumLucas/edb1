@@ -28,6 +28,7 @@ void selectionSort(int listaNumeros[], int tamanhoLista) {
   }
 }
 
+
 int buscaBinaria(int listaNumeros[], int tamanhoLista, int valorUser) {
   int inicio = 0;
   int fim = tamanhoLista - 1;
@@ -71,12 +72,14 @@ int main() {
 
   int indice = buscaBinaria(listaNumeros, tamanhoLista, valorUserBuscado);
 
-  if (indice != -1) {
+  if (indice >= 0) {
     cout << "O valor " << valorUserBuscado << " foi encontrado na posição " << indice + 1 <<endl;
   } else {
     cout << "O valor " << valorUserBuscado << " não foi encontrado na lista." <<endl;
   }
 
+  return 0;
+}
   return 0;
 }
 
