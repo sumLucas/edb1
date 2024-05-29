@@ -13,7 +13,7 @@
 13 - o(n)
 14 - o(n)
 15 - o(log(n))
-16 - o()
+16 - o(n²)
 
 
 // (https://www.lancaster.ac.uk/stor-i-student-sites/lidia-andre/2021/04/27/time-complexity-whats-that/)
@@ -95,4 +95,16 @@ else
 return -1;
 }
 
+
 Questao 16
+void ordenacao_bolha(int n, int v[]){// n
+int k, j, aux; // 1
+for(k = 1; k < n; k++) // 1 + (n - 1 + 1) + n - 1
+for(j = 0; j < n - 1; j++) // 1 + (n - 1 + 1) + n - 1
+if(v[j] > v[j+1]){ // n- 1
+aux = v[j];// n - 1
+v[j] = v[j+1];// n - 1
+v[j+1] = aux;// n - 1
+}}
+
+
