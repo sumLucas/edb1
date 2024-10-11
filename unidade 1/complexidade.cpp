@@ -18,6 +18,39 @@
 
 // (https://www.lancaster.ac.uk/stor-i-student-sites/lidia-andre/2021/04/27/time-complexity-whats-that/)
 
+    
+    
+    
+
+Questão 2
+int numero;// 1
+scanf("%d", &numero); // 1
+if(numero % 2 == 0)// 1
+numero = numero + 1; // 1
+else
+numero = numero - 1;
+printf("%d", numero);
+
+
+Questão 3
+int max = 0; // 1
+int i = 0; // 1
+while(i < max) // 1
+i++; // 1
+
+Questao 4
+int max = 10; // 1
+int i = 0; // 1
+while(i < max) // 1
+i++
+    
+Questao 5
+int max = 10; // 1
+int i = 0; // 1
+while(i < max) // 1
+printf("%d", i++); // 1
+
+
 Questão 6
 int max = 0; //1
 for(int i = 0; i < max; i++) //1 + 1 + 0
